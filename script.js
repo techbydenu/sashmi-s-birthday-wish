@@ -22,3 +22,7 @@ setInterval(createHeart,1200);
 document.getElementById("futureBtn").onclick = function () {
     document.getElementById("futureMemories").style.display = "grid";
 };
+document.getElementById("videoBtn").onclick = function () {
+    document.getElementById("videoSection").style.display = "block";
+    this.style.display = "none";
+};
