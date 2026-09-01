@@ -40,3 +40,27 @@ button:hover{transform:translateY(-3px) scale(1.02)}
 @keyframes float{50%{transform:translateY(-10px)}}
 @keyframes show{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:none}}
 @media(max-width:500px){.card{padding:28px 16px}.letter{padding:18px;font-size:.94rem}}
+.future-memories {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.future-memories.show {
+    display: grid;
+}
+
+.future-memories img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#futureBtn {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
