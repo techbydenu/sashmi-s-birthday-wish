@@ -19,3 +19,6 @@ function createHeart(){
  setTimeout(()=>h.remove(),8500);
 }
 setInterval(createHeart,1200);
+document.getElementById("futureBtn").onclick = function () {
+    document.getElementById("futureMemories").style.display = "grid";
+};
